@@ -1,0 +1,54 @@
+Complete Changelog of SpyCam: 
+
+
+**Build EPICLY ALPHA 0.6**  
+
+Added:
+- New update options
+- Add to address book button that doesn't work at the moment
+- Stop recording button
+- The start and stop recording buttons now actually work!
+- Enhanced UI
+
+THIS IS THE BIGGEST UPDATE YET!
+
+**Build EPICLY ALPHA 0.5** 
+ 
+Added: 
+- Auto Updating support 
+ 
+
+**Build EPICLY ALPHA 0.4**
+ 
+Changed:  
+- Preferences pane that doesn't work at the moment 
+- Icon 
+ 
+
+**Build: EPICLY ALPHA 0.3** 
+ 
+ 
+Changed:  
+- Main window 
+- Preferences pane 
+ 
+Added: 
+- Start button that doesn't work at the moment 
+ 
+
+**Build: EPICLY ALPHA 0.2** 
+ 
+Changed:  
+- Size of SpyCam main window   
+ 
+Fixed:  
+- Closing then opening the preferences pane will crash SpyCam   
+ 
+
+**Build: EPICLY ALPHA 0.1**
+ 
+Added:   
+- Main window  
+- Preferences pane   
+ 
+Note:  - Initial release 
