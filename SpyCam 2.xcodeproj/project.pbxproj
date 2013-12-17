@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1402FB159EFA9900AA9E59 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1402FA159EFA9900AA9E59 /* Sparkle.framework */; };
+		DA140301159EFB9800AA9E59 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA1402FA159EFA9900AA9E59 /* Sparkle.framework */; };
+		DA37E24515A593EA005AC340 /* Please Register SpyCam Barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = DA37E24415A593EA005AC340 /* Please Register SpyCam Barcode.png */; };
+		DA37E24B15A5986F005AC340 /* AlertCautionIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DA37E24A15A5986F005AC340 /* AlertCautionIcon.icns */; };
+		DA37E25115A5A07A005AC340 /* Successful Registration.png in Resources */ = {isa = PBXBuildFile; fileRef = DA37E25015A5A07A005AC340 /* Successful Registration.png */; };
+		DACCE018159B3E2F0083A23E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCE017159B3E2F0083A23E /* Cocoa.framework */; };
+		DACCE022159B3E2F0083A23E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DACCE020159B3E2F0083A23E /* InfoPlist.strings */; };
+		DACCE024159B3E2F0083A23E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCE023159B3E2F0083A23E /* main.m */; };
+		DACCE028159B3E2F0083A23E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DACCE026159B3E2F0083A23E /* Credits.rtf */; };
+		DACCE02B159B3E2F0083A23E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCE02A159B3E2F0083A23E /* AppDelegate.m */; };
+		DACCE02E159B3E300083A23E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACCE02C159B3E300083A23E /* MainMenu.xib */; };
+		DACCE031159B3E300083A23E /* SpyCam_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DACCE02F159B3E300083A23E /* SpyCam_2.xcdatamodeld */; };
+		DACCE039159B3E300083A23E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCE038159B3E300083A23E /* SenTestingKit.framework */; };
+		DACCE03A159B3E300083A23E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACCE017159B3E2F0083A23E /* Cocoa.framework */; };
+		DACCE042159B3E310083A23E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DACCE040159B3E310083A23E /* InfoPlist.strings */; };
+		DACCE045159B3E310083A23E /* SpyCam_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCE044159B3E310083A23E /* SpyCam_2Tests.m */; };
+		DACCE062159B453C0083A23E /* SpyCam Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DACCE061159B453C0083A23E /* SpyCam Icon.icns */; };
+		DADAC7BF15A0A0A500FCC4A0 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADAC7BE15A0A0A500FCC4A0 /* AppController.m */; };
+		DADAC7C115A0A27600FCC4A0 /* RegistrationSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADAC7C015A0A27600FCC4A0 /* RegistrationSheet.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACCE03B159B3E310083A23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACCE00A159B3E2E0083A23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACCE012159B3E2F0083A23E;
+			remoteInfo = "SpyCam 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA140300159EFB7B00AA9E59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA140301159EFB9800AA9E59 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA1402FA159EFA9900AA9E59 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		DA37E24415A593EA005AC340 /* Please Register SpyCam Barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Please Register SpyCam Barcode.png"; sourceTree = "<group>"; };
+		DA37E24A15A5986F005AC340 /* AlertCautionIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AlertCautionIcon.icns; sourceTree = "<group>"; };
+		DA37E25015A5A07A005AC340 /* Successful Registration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Successful Registration.png"; sourceTree = "<group>"; };
+		DACCE013159B3E2F0083A23E /* SpyCam 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpyCam 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCE017159B3E2F0083A23E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DACCE01A159B3E2F0083A23E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DACCE01B159B3E2F0083A23E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DACCE01C159B3E2F0083A23E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DACCE01F159B3E2F0083A23E /* SpyCam 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpyCam 2-Info.plist"; sourceTree = "<group>"; };
+		DACCE021159B3E2F0083A23E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DACCE023159B3E2F0083A23E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DACCE025159B3E2F0083A23E /* SpyCam 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpyCam 2-Prefix.pch"; sourceTree = "<group>"; };
+		DACCE027159B3E2F0083A23E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DACCE029159B3E2F0083A23E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DACCE02A159B3E2F0083A23E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DACCE02D159B3E300083A23E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DACCE030159B3E300083A23E /* SpyCam_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpyCam_2.xcdatamodel; sourceTree = "<group>"; };
+		DACCE037159B3E300083A23E /* SpyCam 2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpyCam 2Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCE038159B3E300083A23E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DACCE03F159B3E310083A23E /* SpyCam 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpyCam 2Tests-Info.plist"; sourceTree = "<group>"; };
+		DACCE041159B3E310083A23E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DACCE043159B3E310083A23E /* SpyCam_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpyCam_2Tests.h; sourceTree = "<group>"; };
+		DACCE044159B3E310083A23E /* SpyCam_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpyCam_2Tests.m; sourceTree = "<group>"; };
+		DACCE061159B453C0083A23E /* SpyCam Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "SpyCam Icon.icns"; sourceTree = "<group>"; };
+		DADAC7BD15A0A0A500FCC4A0 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		DADAC7BE15A0A0A500FCC4A0 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		DADAC7C015A0A27600FCC4A0 /* RegistrationSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationSheet.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACCE010159B3E2F0083A23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE018159B3E2F0083A23E /* Cocoa.framework in Frameworks */,
+				DA1402FB159EFA9900AA9E59 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCE033159B3E300083A23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE039159B3E300083A23E /* SenTestingKit.framework in Frameworks */,
+				DACCE03A159B3E300083A23E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACCE008159B3E2E0083A23E = {
+			isa = PBXGroup;
+			children = (
+				DACCE061159B453C0083A23E /* SpyCam Icon.icns */,
+				DA37E24415A593EA005AC340 /* Please Register SpyCam Barcode.png */,
+				DA37E25015A5A07A005AC340 /* Successful Registration.png */,
+				DA37E24A15A5986F005AC340 /* AlertCautionIcon.icns */,
+				DACCE01D159B3E2F0083A23E /* SpyCam 2 */,
+				DACCE03D159B3E310083A23E /* SpyCam 2Tests */,
+				DACCE016159B3E2F0083A23E /* Frameworks */,
+				DACCE014159B3E2F0083A23E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACCE014159B3E2F0083A23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE013159B3E2F0083A23E /* SpyCam 2.app */,
+				DACCE037159B3E300083A23E /* SpyCam 2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACCE016159B3E2F0083A23E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA1402FA159EFA9900AA9E59 /* Sparkle.framework */,
+				DACCE017159B3E2F0083A23E /* Cocoa.framework */,
+				DACCE038159B3E300083A23E /* SenTestingKit.framework */,
+				DACCE019159B3E2F0083A23E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACCE019159B3E2F0083A23E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE01A159B3E2F0083A23E /* AppKit.framework */,
+				DACCE01B159B3E2F0083A23E /* CoreData.framework */,
+				DACCE01C159B3E2F0083A23E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DACCE01D159B3E2F0083A23E /* SpyCam 2 */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE029159B3E2F0083A23E /* AppDelegate.h */,
+				DACCE02A159B3E2F0083A23E /* AppDelegate.m */,
+				DACCE02C159B3E300083A23E /* MainMenu.xib */,
+				DADAC7BD15A0A0A500FCC4A0 /* AppController.h */,
+				DADAC7BE15A0A0A500FCC4A0 /* AppController.m */,
+				DADAC7C015A0A27600FCC4A0 /* RegistrationSheet.xib */,
+				DACCE02F159B3E300083A23E /* SpyCam_2.xcdatamodeld */,
+				DACCE01E159B3E2F0083A23E /* Supporting Files */,
+			);
+			path = "SpyCam 2";
+			sourceTree = "<group>";
+		};
+		DACCE01E159B3E2F0083A23E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE01F159B3E2F0083A23E /* SpyCam 2-Info.plist */,
+				DACCE020159B3E2F0083A23E /* InfoPlist.strings */,
+				DACCE023159B3E2F0083A23E /* main.m */,
+				DACCE025159B3E2F0083A23E /* SpyCam 2-Prefix.pch */,
+				DACCE026159B3E2F0083A23E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DACCE03D159B3E310083A23E /* SpyCam 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE043159B3E310083A23E /* SpyCam_2Tests.h */,
+				DACCE044159B3E310083A23E /* SpyCam_2Tests.m */,
+				DACCE03E159B3E310083A23E /* Supporting Files */,
+			);
+			path = "SpyCam 2Tests";
+			sourceTree = "<group>";
+		};
+		DACCE03E159B3E310083A23E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE03F159B3E310083A23E /* SpyCam 2Tests-Info.plist */,
+				DACCE040159B3E310083A23E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACCE012159B3E2F0083A23E /* SpyCam 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCE048159B3E310083A23E /* Build configuration list for PBXNativeTarget "SpyCam 2" */;
+			buildPhases = (
+				DACCE00F159B3E2F0083A23E /* Sources */,
+				DACCE010159B3E2F0083A23E /* Frameworks */,
+				DACCE011159B3E2F0083A23E /* Resources */,
+				DA140300159EFB7B00AA9E59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpyCam 2";
+			productName = "SpyCam 2";
+			productReference = DACCE013159B3E2F0083A23E /* SpyCam 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACCE036159B3E300083A23E /* SpyCam 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCE04B159B3E310083A23E /* Build configuration list for PBXNativeTarget "SpyCam 2Tests" */;
+			buildPhases = (
+				DACCE032159B3E300083A23E /* Sources */,
+				DACCE033159B3E300083A23E /* Frameworks */,
+				DACCE034159B3E300083A23E /* Resources */,
+				DACCE035159B3E300083A23E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACCE03C159B3E310083A23E /* PBXTargetDependency */,
+			);
+			name = "SpyCam 2Tests";
+			productName = "SpyCam 2Tests";
+			productReference = DACCE037159B3E300083A23E /* SpyCam 2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACCE00A159B3E2E0083A23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SpySHAMBS;
+			};
+			buildConfigurationList = DACCE00D159B3E2E0083A23E /* Build configuration list for PBXProject "SpyCam 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = DACCE008159B3E2E0083A23E;
+			productRefGroup = DACCE014159B3E2F0083A23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACCE012159B3E2F0083A23E /* SpyCam 2 */,
+				DACCE036159B3E300083A23E /* SpyCam 2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACCE011159B3E2F0083A23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE022159B3E2F0083A23E /* InfoPlist.strings in Resources */,
+				DACCE028159B3E2F0083A23E /* Credits.rtf in Resources */,
+				DACCE02E159B3E300083A23E /* MainMenu.xib in Resources */,
+				DACCE062159B453C0083A23E /* SpyCam Icon.icns in Resources */,
+				DADAC7C115A0A27600FCC4A0 /* RegistrationSheet.xib in Resources */,
+				DA37E24515A593EA005AC340 /* Please Register SpyCam Barcode.png in Resources */,
+				DA37E24B15A5986F005AC340 /* AlertCautionIcon.icns in Resources */,
+				DA37E25115A5A07A005AC340 /* Successful Registration.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCE034159B3E300083A23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE042159B3E310083A23E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DACCE035159B3E300083A23E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACCE00F159B3E2F0083A23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE024159B3E2F0083A23E /* main.m in Sources */,
+				DACCE02B159B3E2F0083A23E /* AppDelegate.m in Sources */,
+				DACCE031159B3E300083A23E /* SpyCam_2.xcdatamodeld in Sources */,
+				DADAC7BF15A0A0A500FCC4A0 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCE032159B3E300083A23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE045159B3E310083A23E /* SpyCam_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACCE03C159B3E310083A23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACCE012159B3E2F0083A23E /* SpyCam 2 */;
+			targetProxy = DACCE03B159B3E310083A23E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DACCE020159B3E2F0083A23E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE021159B3E2F0083A23E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DACCE026159B3E2F0083A23E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE027159B3E2F0083A23E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DACCE02C159B3E300083A23E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE02D159B3E300083A23E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DACCE040159B3E310083A23E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE041159B3E310083A23E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACCE046159B3E310083A23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DACCE047159B3E310083A23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DACCE049159B3E310083A23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SpyCam\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpyCam 2/SpyCam 2-Prefix.pch";
+				INFOPLIST_FILE = "SpyCam 2/SpyCam 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DACCE04A159B3E310083A23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SpyCam\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpyCam 2/SpyCam 2-Prefix.pch";
+				INFOPLIST_FILE = "SpyCam 2/SpyCam 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DACCE04C159B3E310083A23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpyCam 2.app/Contents/MacOS/SpyCam 2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpyCam 2/SpyCam 2-Prefix.pch";
+				INFOPLIST_FILE = "SpyCam 2Tests/SpyCam 2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DACCE04D159B3E310083A23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpyCam 2.app/Contents/MacOS/SpyCam 2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpyCam 2/SpyCam 2-Prefix.pch";
+				INFOPLIST_FILE = "SpyCam 2Tests/SpyCam 2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACCE00D159B3E2E0083A23E /* Build configuration list for PBXProject "SpyCam 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE046159B3E310083A23E /* Debug */,
+				DACCE047159B3E310083A23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACCE048159B3E310083A23E /* Build configuration list for PBXNativeTarget "SpyCam 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE049159B3E310083A23E /* Debug */,
+				DACCE04A159B3E310083A23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACCE04B159B3E310083A23E /* Build configuration list for PBXNativeTarget "SpyCam 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE04C159B3E310083A23E /* Debug */,
+				DACCE04D159B3E310083A23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DACCE02F159B3E300083A23E /* SpyCam_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DACCE030159B3E300083A23E /* SpyCam_2.xcdatamodel */,
+			);
+			currentVersion = DACCE030159B3E300083A23E /* SpyCam_2.xcdatamodel */;
+			path = SpyCam_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DACCE00A159B3E2E0083A23E /* Project object */;
+}
